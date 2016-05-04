@@ -1,0 +1,12 @@
+This works on arch
+
+makepkg
+sudo pacman -U create_file
+usermod -G docker -a user-name
+
+
+git clone docker_sources
+create base images:
+
+docker_sources/contrib/mkimage-arch.sh
+sudo ./mkimage.sh -t someuser/debian debootstrap --variant=minbase jessie
