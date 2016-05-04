@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf build pkg src docker-git-*
+makepkg
